@@ -71,3 +71,19 @@ footer {
   color: #777;
   font-size: 0.85em;
 }
+
+/* ===== Post list (writing index) ===== */
+.post-list {
+  list-style: none;
+  padding: 0;
+}
+
+.post-list-li {
+  margin-bottom: 1em;
+  display: flex;
+  justify-content: space-between;
+}
+
+.post-list a {
+  font-size: 1.1em;
+}
