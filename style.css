@@ -1,5 +1,4 @@
 /* style.css — shared across the whole site */
-
 body {
   font-family: Georgia, serif;
   max-width: 700px;
@@ -15,6 +14,7 @@ header {
   align-items: baseline;
   border-bottom: 1px solid #ccc;
   margin-bottom: 2em;
+  font-size: 1em;
 }
 
 header a {
@@ -26,12 +26,20 @@ nav a {
   margin-left: 1em;
 }
 
+h2 {
+  color:rgb(182, 147, 147);
+  font-style: bold;
+  font-family: "Times New Roman", 'Times New Roman', Times, serif;
+}
+
 /* the "this was written for..." context blurb — reused on posts AND speeches */
 .context {
   font-style: italic;
-  color: #555;
+  color: #c0bece;
+  background-color: #3b4b2d;
   border-left: 3px solid #ccc;
   padding-left: 1em;
+  padding-right: 1em;
   margin: 1.5em 0;
 }
 
@@ -86,5 +94,10 @@ footer {
 
 .post-list a {
   font-size: 1.1em;
+  color: red;
+}
+
+.site-title {
+  font-size: 1em;
   color: red;
 }
